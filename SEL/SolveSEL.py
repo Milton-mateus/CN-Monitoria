@@ -116,8 +116,8 @@ class SEL():
         print(self.textBeta)
 
 def ReadJson():
-    # namefile = input("Insira o nome do arquivo: ")
-    namefile = "Example"
+    namefile = input("Insira o nome do arquivo: ")
+    # namefile = "Example"
     namefile += ".json"
     datapath=pathlib.Path(__file__).parent / namefile
     InputData = json.load(open(datapath))
